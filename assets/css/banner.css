@@ -6,7 +6,8 @@
 }
 
 .banner__container {
-    position: absolute;
+    position: absolute; 
+    width: 750px;
 }
 
 .logo {
@@ -15,11 +16,11 @@
 }
 
 .banner__titulo {
-    height: 230px;
+    height: 65px;
 }
 
-.banner__texto {
-    height: 150px;
+.container__texto {
+    height: 200px;
 }
 
 .titulo, .subtitulo, .descricao {
@@ -30,11 +31,26 @@
     line-height: 82px;
     font-size: 64px;
     font-weight: 700;
+    font-family: var(--lora);
 }
 
 .subtitulo {
+    display: flex;
+    height: 52px;
     font-size: 52px;
     font-weight: 400;
+    font-family: var(--montserrat);
+}
+
+.subtitulo__principal {
+    width: 310px;
+}
+
+.subtitulo__container {
+    width: 270px;
+    font-size: 56px;
+    font-weight: 600;
+    border: 1px solid #000000;
 }
 
 .banner__botoes :nth-child(1){

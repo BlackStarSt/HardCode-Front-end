@@ -5,8 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./assets/css/banner.css">
         <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
         <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css">
         <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
         <title>TB - Teste</title>
     </head>
     <body>
@@ -20,25 +24,49 @@
                 <div class="banner__logo">
                     <img src="./assets/img/logo.svg" alt="logo" class="logo">
                 </div>
-                <div class="banner__titulo">
-                    <div class="banner__texto">
+                <div class="banner__texto">
+                    <div class="container__texto">
                         <h1 class="titulo">MEDIA FOR EQUITY</h1>
-                        <p class="subtitulo">Invest like a Willians</p>
+                        <div class="subtitulo">
+                            <h2 class="subtitulo__principal">Invest like a </h2>
+                            <div class="subtitulo__container"> 
+                                <p class="subtitulo">Willians.</p>
+                                <p class="subtitulo">Vox.</p>
+                                <p class="subtitulo">McGregor.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="banner__botoes">
-                        <button type="button" class="botoes">Seja Investidor</button>
-                        <button type="button" class="botoes">Para Startups</button>
-                    </div>
+                </div>
+                <div class="banner__botoes">
+                    <button type="button" class="botoes">Seja Investidor</button>
+                    <button type="button" class="botoes">Para Startups</button>
                 </div>
                 <div class="banner__descricao">
-                    <img src="" alt="" class="descricao__logo">
-                    <p class="descricao">
-                        Serena Willians uma das maiores tenistas de todos os tempos, já investiu em
-                        <strong>60 startups</strong> sendo que <strong>13 viraram unicórnios.</strong> Acabou de criar um fundo de
-                        <strong>US$ 111 milhões.</strong>
-                    </p>
+                    <div class="container__descricao">
+                        <img src="" alt="" class="descricao__logo">
+                        <p class="descricao">
+                            Serena Willians uma das maiores tenistas de todos os tempos, já investiu em
+                            <strong>60 startups</strong> sendo que <strong>13 viraram unicórnios.</strong> Acabou de criar um fundo de
+                            <strong>US$ 111 milhões.</strong>
+                        </p>
+                    </div>
+                    <div class="container__descricao">
+                        <img src="" alt="" class="descricao__logo">
+                        <p class="descricao">
+                            Bono Vox é o cantor mais rico do mundo, mas a maior parte da fortuna não veio da música. 
+                            Ele comprou comprou <strong>2,3% do Facebook</strong>, e isso hoje equivale <strong>$ 12,9 bilhão.</strong>
+                        </p>
+                    </div>
+                    <div class="container__descricao">
+                        <img src="" alt="" class="descricao__logo">
+                        <p class="descricao">
+                            Conor McGregor é o atleta mais bem pago do mundo. 
+                            Ele recebeu S$ 22 milhões lutando e 
+                            <strong>US$ 158 milhões</strong> faz parte de patrocínios e retorno de <strong>em startup</strong>.
+                        </p>
+                    </div>
                 </div>
-                <div class="barra__progresso" id="barraDeProgresso"></div>
+                <div class="barra__progresso"></div>
             </div>
        </section>
     </body>
