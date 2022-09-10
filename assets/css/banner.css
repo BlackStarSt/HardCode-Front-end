@@ -1,0 +1,60 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 800px;
+}
+
+.banner__container {
+    position: absolute;
+}
+
+.logo {
+    height: 60px;
+    width: 101px;
+}
+
+.banner__titulo {
+    height: 230px;
+}
+
+.banner__texto {
+    height: 150px;
+}
+
+.titulo, .subtitulo, .descricao {
+    color: white;
+}
+
+.titulo {
+    line-height: 82px;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.subtitulo {
+    font-size: 52px;
+    font-weight: 400;
+}
+
+.banner__botoes :nth-child(1){
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.banner__botoes :nth-child(2){
+    border: 1px solid #FFFFFF;
+    background: none;
+    color: #FFFFFF;
+}
+
+.botoes {
+    border-radius: 4px;
+    height: 54px;
+    width: 198px;
+}
+
+.banner__descricao {
+    height: 88px;
+    width: 413px;
+}
